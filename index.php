@@ -63,7 +63,7 @@ $theme_url = 'dist/css/' . $theme;
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php echo _("Raspbian WiFi Configuration Portal"); ?></title>
+    <title><?php echo _("eBilal Configuration Portal"); ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -106,7 +106,7 @@ $theme_url = 'dist/css/' . $theme;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-	  <a class="navbar-brand" href="index.php"><?php echo _("RaspAP Wifi Portal"); ?> v<?php echo RASPI_VERSION; ?></a>
+	  <a class="navbar-brand" href="index.php"><?php echo _("eBilal Portal"); ?> v<?php echo RASPI_VERSION; ?></a>
         </div>
         <!-- /.navbar-header -->
 
@@ -118,7 +118,7 @@ $theme_url = 'dist/css/' . $theme;
                 <a href="index.php?page=wlan0_info"><i class="fa fa-dashboard fa-fw"></i> <?php echo _("Dashboard"); ?></a>
               </li>
               <li>
-                <a href="index.php?page=wpa_conf"><i class="fa fa-signal fa-fw"></i> <?php echo _("Configure WiFi client"); ?></a>
+                <a href="index.php?page=wpa_conf"><i class="fa fa-signal fa-fw"></i> <?php echo _("Configure WiFi"); ?></a>
               </li>
               <?php if ( RASPI_HOTSPOT_ENABLED ) : ?>
               <li>
