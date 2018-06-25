@@ -169,7 +169,7 @@ $theme_url = 'dist/css/' . $theme;
         <div class="row">
           <div class="col-lg-12">
             <h1 class="page-header">
-              <img class="logo" src="img/raspAP-logo.png" width="45" height="45">RaspAP
+              <img class="logo" src="img/raspAP-logo.png" width="45" height="45">eBilal
             </h1>
           </div>
         </div><!-- /.row -->
